@@ -1,11 +1,11 @@
 apply plugin: 'com.android.application'
 
 android {
-	compileSdk 36
+	compileSdk = 36
     defaultConfig {
-        minSdkVersion 31
-        targetSdkVersion 36
-        applicationId "com.davemorrissey.labs.subscaleview.test"
+        minSdkVersion = 31
+        targetSdkVersion = 36
+        applicationId = "com.davemorrissey.labs.subscaleview.test"
     }
 
     sourceSets {
@@ -15,8 +15,8 @@ android {
     }
 
     compileOptions {
-        sourceCompatibility 1.8
-        targetCompatibility 1.8
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
     }
     namespace 'com.davemorrissey.labs.subscaleview.test'
 }
