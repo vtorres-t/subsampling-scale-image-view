@@ -24,7 +24,6 @@ Subsampling Scale Image View (Kotatsu fork)
    ```groovy
    allprojects {
 	   repositories {
-		   ...
 		   maven { url 'https://jitpack.io' }
 	   }
    }
